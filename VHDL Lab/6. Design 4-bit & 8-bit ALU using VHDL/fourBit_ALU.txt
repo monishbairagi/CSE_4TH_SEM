@@ -1,0 +1,49 @@
+----------------------------------------------------------------------------------
+-- Engineer: Monish Kumar Bairagi
+-- Create Date:    17:06:24 05/10/2020 
+-- Design Name: 
+-- Module Name:    fourBit_ALU - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+---- Uncomment the following library declaration if instantiating
+---- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity fourBit_ALU is
+    Port ( A : in  STD_LOGIC_VECTOR (3 downto 0);
+           B : in  STD_LOGIC_VECTOR (3 downto 0);
+           S : in  STD_LOGIC_VECTOR (2 downto 0);
+           O : out  STD_LOGIC_VECTOR (3 downto 0));
+end fourBit_ALU;
+
+architecture Behavioral of fourBit_ALU is
+begin
+	process(A,B,S)
+		begin
+			if (S = "000") then O<=A+B;
+			elsif (S = "001") then O<=A-B;
+			elsif (S = "010") then O<=A-1;
+			elsif (S = "011") then O<=A+1;
+			elsif (S = "100") then O<=A and B;
+			elsif (S = "101") then O<=A or B;
+			elsif (S = "110") then O<=not A;
+			else O<=A xor B;
+			end if;
+	end process;
+end Behavioral;
