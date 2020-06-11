@@ -1,29 +1,11 @@
 ----------------------------------------------------------------------------------
--- Engineer: Monish Kumar Bairagi
--- Create Date:    12:48:33 05/10/2020 
--- Design Name: fourBit_SIPO
--- Module Name:    fourBit_SIPO - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
---
--- Dependencies: 
---
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
---
+-- Engineer:        Monish Kumar Bairagi
+-- Project Name:    fourBit_SIPO
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
-
----- Uncomment the following library declaration if instantiating
----- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 entity fourBit_SIPO is
     Port ( D : in  STD_LOGIC;
@@ -49,4 +31,3 @@ begin
 	Dout <= temp;
 end process;
 end Behavioral;
-
