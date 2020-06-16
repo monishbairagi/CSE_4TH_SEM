@@ -8,3 +8,4 @@
 8) Design 4-bit & 8-bit shift register using VHDL
 9) Design 4-bit Multiplier using VHDL
 10) Design SRAM using VHDL
+11) Design ROM using VHDL
