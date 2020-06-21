@@ -1,12 +1,12 @@
-1) VHDL Introduction
-2) All Basic Gates using VHDL
-3) Multiplexer using VHDL
-4) Design Decoder using VHDL
-5) Design Comparator using VHDL
-6) Design S-R, D, J-K, T Flip-Flop using VHDL
-7) Design 4-bit & 8-bit ALU using VHDL
-8) Design 4-bit & 8-bit shift register using VHDL
-9) Design 4-bit Multiplier using VHDL
-10) Design SRAM using VHDL
-11) Design ROM using VHDL
-12) Schematic Diagram using VHDL
+a) VHDL Introduction
+b) All Basic Gates using VHDL
+c) Multiplexer using VHDL
+d) Design Decoder using VHDL
+e) Design Comparator using VHDL
+f) Design S-R, D, J-K, T Flip-Flop using VHDL
+g) Design 4-bit & 8-bit ALU using VHDL
+h) Design 4-bit & 8-bit shift register using VHDL
+i) Design 4-bit Multiplier using VHDL *
+j) Design SRAM using VHDL
+k) Design ROM using VHDL
+l) Schematic Diagram using VHDL
