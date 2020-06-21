@@ -9,3 +9,4 @@
 9) Design 4-bit Multiplier using VHDL
 10) Design SRAM using VHDL
 11) Design ROM using VHDL
+12) Schematic Diagram using VHDL
