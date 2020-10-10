@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-// this code is written by Monish Kumar Bairagi          
+       
 int x[20],c=1;
 
 void printBoard(int n){
@@ -38,10 +38,9 @@ void NQueen(int k,int n){
  	}
 }
  
-int main(){
+void main(){
  int n,i,j;
  printf("Enter number of Queens:");
  scanf("%d",&n);
  NQueen(1,n);
- return 0;
 }
